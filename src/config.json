@@ -1,0 +1,14 @@
+{
+	"DATA": {
+		"TRAIN_DATA_PATH": "./data/raw/train_papers.jsonl",
+		"TEST_DATA_PATH": "./data/raw/test_papers.jsonl",
+		"SAVED_MODELS_PATH": "./models/",
+		"LABEL_MAP": {"Medicine": 0, "Biology": 1, "Computer Science": 2, "Chemistry": 3, "Physics": 4}
+	},
+	"TRAINING": {
+		"PRETRAINED_MODEL": "bert-base-uncased",
+		"BATCH_SIZE": 32,
+		"NUM_EPOCHS": 12,
+		"LEARNING_RATE": 5e-5
+	}
+}
