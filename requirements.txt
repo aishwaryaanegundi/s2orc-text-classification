@@ -1,0 +1,8 @@
+datasets==2.3.2
+pandas==1.1.4
+progressbar==2.5
+tokenizers==0.12.1
+torch==1.11.0
+tqdm==4.64.0
+transformers==4.20.1
+sklearn
